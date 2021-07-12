@@ -1,7 +1,7 @@
 ----------input and output path----------
-odb_path = 'C:\Temp'
-odb_name = 'CP10_L6_DP1'
-vtk_path = 'C:\Temp\CP10_L6_DP1'
+odb_path = 'E:\ABA610_workplace\odb2vtk\Samples\'
+odb_name = 'E:\ABA610_workplace\odb2vtk\Samples\CP10_L6_DP1'
+vtk_path = 'E:\ABA610_workplace\odb2vtk\Vtkresults\CP10_L6_DP1'
 --------------type of mesh--------------
 mesh_type = '12'
 -------------number of piece-------------

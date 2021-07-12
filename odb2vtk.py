@@ -18,7 +18,7 @@ from string import *
 from time import *
 
 #Function 1
-def ConvertOdb2Vtk(filename = 'C:\Temp\odb2vtk.txt'):  #Modify the default value of filename here to specify the default configuration file
+def ConvertOdb2Vtk(filename = 'E:\ABA610_workplace\odb2vtk\odb2vtk.txt'):  #Modify the default value of filename here to specify the default configuration file
 	
 	starttime = time()
     # Check if filename points to existing file
