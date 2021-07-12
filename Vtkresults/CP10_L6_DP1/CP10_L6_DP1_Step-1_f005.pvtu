@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<VTKFile type="PUnstructuredGrid" version="0.1" byte_order="LittleEndian">
+<PUnstructuredGrid GhostLevel="2">
+<PPointData Tensors="Stress_Components,Logarithmic_strain_components,Plastic_strain_components" Vevtors="Spatial_displacement,Spatial_acceleration,Spatial_velocity,Reaction_force" Scalars="Equivalent_plastic_strain,Stress_Mises,Stress_Max_Principal,Stress_Mid_Principal,Stress_Min_Principal,Stress_Pressure,Stress_Tresca,Stress_Third_Invariant,Logarithmic_strain_Max_Principal,Logarithmic_strain_Min_Principal,Plastic_strain_Max_Principal,Plastic_strain_Min_Principal">
+<PDataArray type="Float32" Name="Stress_Components" NumberOfComponents="9" />
+<PDataArray type="Float32" Name="Logarithmic_strain_components" NumberOfComponents="9" />
+<PDataArray type="Float32" Name="Plastic_strain_components" NumberOfComponents="9" />
+<PDataArray type="Float32" Name="Spatial_displacement" NumberOfComponents="3" />
+<PDataArray type="Float32" Name="Spatial_acceleration" NumberOfComponents="3" />
+<PDataArray type="Float32" Name="Spatial_velocity" NumberOfComponents="3" />
+<PDataArray type="Float32" Name="Reaction_force" NumberOfComponents="3" />
+<PDataArray type="Float32" Name="Equivalent_plastic_strain" />
+<PDataArray type="Float32" Name="Stress_Mises" />
+<PDataArray type="Float32" Name="Stress_Max_Principal" />
+<PDataArray type="Float32" Name="Stress_Mid_Principal" />
+<PDataArray type="Float32" Name="Stress_Min_Principal" />
+<PDataArray type="Float32" Name="Stress_Pressure" />
+<PDataArray type="Float32" Name="Stress_Tresca" />
+<PDataArray type="Float32" Name="Stress_Third_Invariant" />
+<PDataArray type="Float32" Name="Logarithmic_strain_Max_Principal" />
+<PDataArray type="Float32" Name="Logarithmic_strain_Min_Principal" />
+<PDataArray type="Float32" Name="Plastic_strain_Max_Principal" />
+<PDataArray type="Float32" Name="Plastic_strain_Min_Principal" />
+</PPointData>
+<PPoints>
+<PDataArray type="Float64" NumberOfComponents="3"/>
+</PPoints>
+<Piece Source="CP10_L6_DP1_Step-1_PART-1-1f005 p0.vtu"/>
+<Piece Source="CP10_L6_DP1_Step-1_PART-1-1f005 p1.vtu"/>
+</PUnstructuredGrid>
+</VTKFile>
